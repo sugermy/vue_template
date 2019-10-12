@@ -1,2 +1,25 @@
-# vue_template
-vue模板
+### v_template
+
+### author:zhangmanyi
+
+### creatdate:2019/10/12
+
+### Project setup
+
+yarn install
+
+### Compiles and hot-reloads for development
+
+yarn run serve
+
+### Compiles and minifies for production
+
+yarn run build
+
+### Run your tests
+
+yarn run test
+
+### Lints and fixes files
+
+yarn run lint
