@@ -8,7 +8,6 @@ import './utils/filter'//VUE过滤器
 import './style/reset.less'//基础重置样式
 import './style/element_reset.less'//基础重置样式
 Vue.use(Router)
-console.log(store)
 //设置vue 在启动时是否生成生产提示
 Vue.config.productionTip = process.env.NODE_ENV === 'development'
 
