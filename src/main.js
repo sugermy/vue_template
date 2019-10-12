@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import store from './vuex/store'
+import store from './vuex/index'
 import Router from 'vue-router'
 import { TotalRouters, ForbidRouter } from './routers'//路由---解构路由过滤
 import Ajax from './utils/ajax'//二次封装ajax
@@ -8,7 +8,7 @@ import './utils/filter'//VUE过滤器
 import './style/reset.less'//基础重置样式
 import './style/element_reset.less'//基础重置样式
 Vue.use(Router)
-
+console.log(store)
 //设置vue 在启动时是否生成生产提示
 Vue.config.productionTip = process.env.NODE_ENV === 'development'
 
