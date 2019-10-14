@@ -17,5 +17,8 @@ export default {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	li {
+		cursor: pointer;
+	}
 }
 </style>
