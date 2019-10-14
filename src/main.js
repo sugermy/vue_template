@@ -30,13 +30,6 @@ function renderApp (router) {
     }
     next();
   });
-  // 跳转路由时,主区域返回顶部
-  router.afterEach((to, from) => {
-    Vue.prototype.$nextTick(() => {
-      document.querySelector('#main-wrap').scrollTop = 0
-    })
-  })
-
   let app = new Vue({
     router,
     store,

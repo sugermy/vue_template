@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderBar :menulist="menulist" />
-    <router-view id="main-wrap" />
+    <router-view />
   </div>
 </template>
 <script>
